@@ -1,0 +1,304 @@
+{
+	"info": {
+		"_postman_id": "99f35b9c-aafd-428c-b7ea-d59b00236ab7",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48454677",
+		"_collection_link": "https://mariaostrovskaya-9236615.postman.co/workspace/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9-%D0%BC%D0%B8%D1%80~091ab7d5-ba6e-4752-9ecc-a836bbe900f0/collection/48454677-99f35b9c-aafd-428c-b7ea-d59b00236ab7?action=share&source=collection_link&creator=48454677"
+	},
+	"item": [
+		{
+			"name": "ключ",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{Token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"sessionid\": {{sessionid}}\r\n  \"csrftoken\": {{csrftoken}}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mc.yandex.ru/watch/34173410?page-url=https%3A%2F%2Fwww.detmir.ru%2Fprofile%2F%3Fstate%3D5PUlXG2fyG0exG_I1PexO8-T7T2117Y06IUfN5aGXchY0AVh%26payload%3D%257B%2522code%2522%253A%2522vk2.a.Ww934GTNC4vQeoOEoq5e7FBN-1J5Layu7wvPYwvp-bqTFJdx3LllcDEZiJVWBBP6XFaT1Cj2PyzpeL7y8QMEJFyzf5eNCUndO5NdQwE8yjgOOifdUnocDRDPbgEruBAcQIPBgEU2sXZmqhpgk4Qq6hNXA6AGmaCpyasd4jWUl7fFoZhv_Y4gvX43XKh-WHUbQfflO_Ty0a7B6KheX9NEpyKAcBMpT5TKgfVnH4tvXFg%2522%252C%2522device_id%2522%253A%25221O5ZQyaSTP5AcoEQyYU-1efT31cQh4fHRE2C07d7mv-7_uLo-f7EFl34ia24vFYxvHE4RIiV8UHr5jl5seZj_Q%2522%257D&charset=utf-8&hittoken=1765641802_9ade8be3d0cf142bf6a77f4adf571241d3aaa55bc986df2c7c49568c891e50b6&browser-info=nb%3A1%3Acl%3A76%3Aar%3A1%3Avf%3A6dxo56vtzxzyyc4em9c7ihhrqsezj%3Afu%3A1%3Aen%3Autf-8%3Ala%3Aru%3Av%3A2310%3Acn%3A1%3Adp%3A0%3Als%3A1621293387510%3Ahid%3A121118503%3Az%3A180%3Ai%3A20251213190337%3Aet%3A1765641817%3Ac%3A1%3Arn%3A308673054%3Arqn%3A568%3Au%3A1765447501624213920%3Aw%3A135x899%3As%3A1920x1080x24%3Ask%3A1%3Awv%3A2%3Ads%3A%2C%2C%2C%2C%2C%2C%2C%2C%2C1509%2C1510%2C0%2C%3Aco%3A0%3Acpf%3A1%3Aeu%3A0%3Ans%3A1765641801229%3Agi%3AR0ExLjIuMTMwMTI3OTE5MC4xNzY1NDQ3NTAx%3Aadb%3A2%3App%3A3629563401%3Arqnl%3A1%3Ast%3A1765641817&t=gdpr(14)mc(p-1)clc(0-0-0)rqnt(3)aw(1)rcm(0)ecs(0)cdl(na)eco(84476420)oms(0)prs(1)w2s(0)fid(50)ti(0)&force-urlencoded=1",
+					"protocol": "https",
+					"host": [
+						"mc",
+						"yandex",
+						"ru"
+					],
+					"path": [
+						"watch",
+						"34173410"
+					],
+					"query": [
+						{
+							"key": "page-url",
+							"value": "https%3A%2F%2Fwww.detmir.ru%2Fprofile%2F%3Fstate%3D5PUlXG2fyG0exG_I1PexO8-T7T2117Y06IUfN5aGXchY0AVh%26payload%3D%257B%2522code%2522%253A%2522vk2.a.Ww934GTNC4vQeoOEoq5e7FBN-1J5Layu7wvPYwvp-bqTFJdx3LllcDEZiJVWBBP6XFaT1Cj2PyzpeL7y8QMEJFyzf5eNCUndO5NdQwE8yjgOOifdUnocDRDPbgEruBAcQIPBgEU2sXZmqhpgk4Qq6hNXA6AGmaCpyasd4jWUl7fFoZhv_Y4gvX43XKh-WHUbQfflO_Ty0a7B6KheX9NEpyKAcBMpT5TKgfVnH4tvXFg%2522%252C%2522device_id%2522%253A%25221O5ZQyaSTP5AcoEQyYU-1efT31cQh4fHRE2C07d7mv-7_uLo-f7EFl34ia24vFYxvHE4RIiV8UHr5jl5seZj_Q%2522%257D"
+						},
+						{
+							"key": "charset",
+							"value": "utf-8"
+						},
+						{
+							"key": "hittoken",
+							"value": "1765641802_9ade8be3d0cf142bf6a77f4adf571241d3aaa55bc986df2c7c49568c891e50b6"
+						},
+						{
+							"key": "browser-info",
+							"value": "nb%3A1%3Acl%3A76%3Aar%3A1%3Avf%3A6dxo56vtzxzyyc4em9c7ihhrqsezj%3Afu%3A1%3Aen%3Autf-8%3Ala%3Aru%3Av%3A2310%3Acn%3A1%3Adp%3A0%3Als%3A1621293387510%3Ahid%3A121118503%3Az%3A180%3Ai%3A20251213190337%3Aet%3A1765641817%3Ac%3A1%3Arn%3A308673054%3Arqn%3A568%3Au%3A1765447501624213920%3Aw%3A135x899%3As%3A1920x1080x24%3Ask%3A1%3Awv%3A2%3Ads%3A%2C%2C%2C%2C%2C%2C%2C%2C%2C1509%2C1510%2C0%2C%3Aco%3A0%3Acpf%3A1%3Aeu%3A0%3Ans%3A1765641801229%3Agi%3AR0ExLjIuMTMwMTI3OTE5MC4xNzY1NDQ3NTAx%3Aadb%3A2%3App%3A3629563401%3Arqnl%3A1%3Ast%3A1765641817"
+						},
+						{
+							"key": "t",
+							"value": "gdpr(14)mc(p-1)clc(0-0-0)rqnt(3)aw(1)rcm(0)ecs(0)cdl(na)eco(84476420)oms(0)prs(1)w2s(0)fid(50)ti(0)"
+						},
+						{
+							"key": "force-urlencoded",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "профиль,",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{Token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.detmir.ru/profile/",
+					"protocol": "https",
+					"host": [
+						"www",
+						"detmir",
+						"ru"
+					],
+					"path": [
+						"profile",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "получение страницы товара",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.detmir.ru/product/index/id/3192878/?variant_id=3192878",
+					"protocol": "https",
+					"host": [
+						"www",
+						"detmir",
+						"ru"
+					],
+					"path": [
+						"product",
+						"index",
+						"id",
+						"3192878",
+						""
+					],
+					"query": [
+						{
+							"key": "variant_id",
+							"value": "3192878"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "добавление товара",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"product_id\": 3192878,\r\n  \"quantity\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.detmir.ru/cart/product/index/id/3192878/?variant_id=3192878",
+					"protocol": "https",
+					"host": [
+						"www",
+						"detmir",
+						"ru"
+					],
+					"path": [
+						"cart",
+						"product",
+						"index",
+						"id",
+						"3192878",
+						""
+					],
+					"query": [
+						{
+							"key": "variant_id",
+							"value": "3192878"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{Token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "productId",
+			"value": ""
+		},
+		{
+			"key": "base_url",
+			"value": ""
+		},
+		{
+			"key": "Token",
+			"value": ""
+		},
+		{
+			"key": "name",
+			"value": ""
+		},
+		{
+			"key": "password",
+			"value": ""
+		},
+		{
+			"key": "sessionid",
+			"value": ""
+		},
+		{
+			"key": "csrftoken",
+			"value": ""
+		},
+		{
+			"key": "csrfToken",
+			"value": ""
+		}
+	]
+}
